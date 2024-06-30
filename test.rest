@@ -8,7 +8,7 @@
 # POST http://127.0.0.1:8000/user/signup/
 # Content-Type: application/json
 
-# {"username":"soohyeuk", "password": "1234", "email":"soohyeuk0816@gmail.com"}
+# {"username":"soo", "password": "1234", "email":"soohyeuk0816@gmail.com"}
 
 
 # GET http://127.0.0.1:8000/user/test_token/

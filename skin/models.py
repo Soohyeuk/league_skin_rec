@@ -7,7 +7,7 @@ class Skins(models.Model):
     skin_name = models.CharField(max_length=30, unique=True)
     release_date = models.DateTimeField()
     price = models.IntegerField()
-    comments = models.ForeignKey('comments.Comments', on_delete=models.CASCADE, default=True)
+    comments = models.ForeignKey('comments.Comments', null=True, on_delete=models.SET_NULL)
     def __str__(self):
         return self.skin_name
     
